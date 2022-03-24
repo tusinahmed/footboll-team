@@ -1,0 +1,172 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* headline title flex */
+
+.head-title-live{
+    display: flex;
+    background-color:#E02C6D;;
+    width: 140px;
+    
+}
+
+.arrow-icon{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.text-watch-live{
+   margin-left: 10px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(93, 8, 172);
+    margin-bottom: 30px;
+    
+}
+
+.header-player-icon img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 20px;
+}
+
+.header-title{
+    margin-left: 156px;
+    margin-top: 110px;
+}
+
+
+/* headline title flex end */
+
+/* headline title flex responsive */
+
+@media (max-width:688px) {
+
+    .header{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)   
+}
+.header-player-icon{
+    margin-top: 40px;
+}
+
+.header-player-icon img{
+    width: 100%;
+}
+
+}
+
+.player-image img{
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.player-text{
+    width: 300px;
+    height: 154px;
+    margin-left: 15px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+
+.player-info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #6C6C6C;;
+}
+
+.players{
+    margin-left: 330px;
+    margin-right: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+    
+    
+   
+}
+
+
+.live-last-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+   
+}
+
+
+   .last-part-live-text{
+       margin-left: 350px;
+       margin-top: 80px;
+   }
+
+
+   .footer-image img{
+    width: 483px;
+    height: 110px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+   .social-icon{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .fab {
+       margin-right: 30px;
+   }
+
+   .copyright{
+       font-family: Arial, Helvetica, sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
+
+   @media (max-width:688px) {
+
+    .players{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: right;
+       align-items: center;
+   
+
+    }
+       
+   }
+
+   @media (min-width:688px) and (max-width:992px) {
+
+    .players{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+       align-items: center;
+   
+
+    }
+    
+}
+
